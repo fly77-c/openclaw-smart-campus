@@ -1,0 +1,73 @@
+# ========== 敏感文件 ==========
+.env
+.env.*
+*.key
+*.pem
+secrets.txt
+config.local.json
+
+# ========== 日志 ==========
+logs/
+*.log
+
+# ========== Python 构建产物 ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.spec
+*.egg-info/
+.eggs/
+
+# ========== Python 虚拟环境 ==========
+venv/
+.venv/
+env/
+ENV/
+
+# ========== Android ==========
+.gradle/
+app/build/
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ========== Android 签名 ==========
+*.keystore
+*.jks
+keystore.properties
+
+# ========== IDE ==========
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ========== 系统 ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========== 运行时数据 ==========
+*.sqlite
+*.sqlite3
+*.db
+
+# ========== 截图/录屏 ==========
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+!docs/**/*.png
+!docs/**/*.jpg
